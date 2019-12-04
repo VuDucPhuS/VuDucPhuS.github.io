@@ -5,7 +5,7 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!--Let browser know website is optimized for mobile-->
@@ -17,29 +17,34 @@
   <div class="navbar-fixed">
     <nav class="teal">
       <div class="container">
-        <div class="nav-wrapper">
-          <a href="#home" class="brand-logo">Travelville</a>
-          <a href="#" data-activates="mobile-nav" class="button-collapse">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#search">Search</a>
-            </li>
-            <li>
-              <a href="#popular">Popular Places</a>
-            </li>
-            <li>
-              <a href="#gallery">Gallery</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+          <div class="row">
+              <div class="nav-wrapper">
+                <a href="#home" class="brand-logo">Travelville</a>
+                <a href="#" data-activates="mobile-nav" class="button-collapse">
+                  <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                  <li>
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#search">Popular Tours</a>
+                  </li>
+                  <li>
+                    <a href="#popular">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="#gallery">Login</a>
+                  </li>
+                  <li>
+                    <a href="#cart">Cart</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
       </div>
     </nav>
   </div>
@@ -55,6 +60,9 @@
     </li>
     <li>
       <a href="#gallery">Gallery</a>
+    </li>
+    <li>
+      <a href="#cart">Cart</a>
     </li>
     <li>
       <a href="#contact">Contact</a>
@@ -89,6 +97,149 @@
         </div>
       </li>
     </ul>
+  </section>
+
+  <!-- Section: Popular Places-->
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center"><span class="teal-text">Popular Places</span></h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort1.jpg" alt="">
+              <span class="card-title">Cancin, Mexico</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <div class="row">
+                <div class="col">
+                  <p class="">99.00 $</p>
+                </div>
+                <div class="col">
+                  <a href="#" class="">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort2.jpg" alt="">
+              <span class="card-title">The Bahamas</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <div class="row">
+                <div class="col">
+                  <p class="">99.00 $</p>
+                </div>
+                <div class="col">
+                  <a href="#" class="">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort3.jpg" alt="">
+              <span class="card-title">Nova Scotia</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <div class="row">
+                <div class="col">
+                  <p class="">99.00 $</p>
+                </div>
+                <div class="col">
+                  <a href="#" class="">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort3.jpg" alt="">
+              <span class="card-title">Bali, Indonesia</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <div class="row">
+                <div class="col">
+                  <p class="">99.00 $</p>
+                </div>
+                <div class="col">
+                  <a href="#" class="">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort2.jpg" alt="">
+              <span class="card-title">Hawaii, US</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <div class="row">
+                <div class="col">
+                  <p class="">99.00 $</p>
+                </div>
+                <div class="col">
+                  <a href="#" class="">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort1.jpg" alt="">
+              <span class="card-title">Maldives, Asia</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <div class="row">
+                <div class="col">
+                  <p class="">99.00 $</p>
+                </div>
+                <div class="col">
+                  <a href="#" class="">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <ul class="pagination">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active teal"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+          </ul>
+      </div>
+      <div class="row">
+        <div class="col s12 center">
+          <a href="#contact" class="btn btn-large grey darker-3">
+            <i class="material-icons left">call</i>Contact for booking
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Section: Search -->
@@ -136,54 +287,7 @@
     </div>
   </section>
 
-  <!-- Section: Popular Places-->
-  <section id="popular" class="section section-popular scrollspy">
-    <div class="container">
-      <div class="row">
-        <h4 class="center"><span class="teal-text">Popular Places</span></h4>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/resort1.jpg" alt="">
-              <span class="card-title">Cancin, Mexico</span>
-            </div>
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/resort2.jpg" alt="">
-              <span class="card-title">The Bahamas</span>
-            </div>
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/resort3.jpg" alt="">
-              <span class="card-title">Nova Scotia</span>
-            </div>
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 center">
-          <a href="#contact" class="btn btn-large grey darker-3">
-            <i class="material-icons left">send</i>Contact for booking
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- Section: Follow-->
   <section class="section section-follow teal darken-2 white-text center">
